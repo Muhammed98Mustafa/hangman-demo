@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 20px auto;
+  height: 1000px;
+}
+.row {
+  display: flex;
+}
+hr {
+  border: 1px solid #eee;
+}
+.game-information {
+  display: flex;
+}
+.game-name {
+  flex: 1;
+}
+.catagory {
+  flex: 1;
+  text-align: right;
+}
